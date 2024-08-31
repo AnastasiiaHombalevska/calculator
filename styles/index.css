@@ -2,14 +2,16 @@ body {
   font-family: "Orbitron", sans-serif;
   font-size: 16px;
   font-weight: 500;
+  margin: 0;
 }
 
-@media (min-width: 320px) {
 .calculator {
   background-color: grey;
   border-radius: 10px;
+  min-width: 320px;
   max-width: 500px;
 }
+/* @media (min-width: 320px) { */
 
 .calc-dispaly {
   font-family: inherit;
@@ -26,20 +28,13 @@ body {
 }
 
 .keys {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   padding: 20px;
 }
 
 .btn {
-  flex: calc(25% - 10px);
-  width: 50px;
-  height: 50px;
   font-size: 2rem;
   color: #fff;
   background-color: #000;
@@ -51,4 +46,4 @@ body {
 .operator-btn {
   background-color: orange;
 }
-}
+/* } */

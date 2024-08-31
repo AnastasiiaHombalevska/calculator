@@ -9,7 +9,6 @@ Solution: [DEMO LINK]()
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [How to install](#how-to-install)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -26,13 +25,6 @@ Users should be able to:
 ### Screenshot
 
 ![screenshot]()
-
-<!-- ### How to install
-
-- Clone Repo or Download Zip
-- Visit chrome://extensions/ and turn on "Developer mode"
-- Click "Load unpacked" button and navigate to the folder you downloaded
-- That's it! 🎉 -->
 
 ## My process
 
