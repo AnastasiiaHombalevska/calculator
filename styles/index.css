@@ -20,7 +20,7 @@ body {
 
 .calc-dispaly {
   font-family: inherit;
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: left;
   width: 100%;
   color: #fff;
@@ -31,7 +31,6 @@ body {
   padding: 20px;
 }
 
-/* @media (min-width: 600px) { */
 .keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -69,4 +68,3 @@ body {
 .operator-btn:active {
   background-color: hsl(35, 100%, 75%);
 }
-/* } */
