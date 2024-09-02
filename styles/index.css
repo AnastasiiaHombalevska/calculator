@@ -31,6 +31,10 @@ body {
   padding: 20px;
 }
 
+.calc-dispaly:focus {
+  outline: none;
+}
+
 .keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

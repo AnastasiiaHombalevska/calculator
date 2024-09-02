@@ -1,8 +1,8 @@
 # Calculator with JavaScrip
 
-This is a solution to the [Calculator with JavaScrip]().
+This is a solution to the Calculator with JavaScrip.
 
-Solution: [DEMO LINK]()
+Solution: [DEMO LINK](https://clever-wisp-51a002.netlify.app)
 
 ## Table of contents
 
@@ -12,7 +12,6 @@ Solution: [DEMO LINK]()
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 
 ## Overview
 
@@ -20,11 +19,11 @@ Solution: [DEMO LINK]()
 
 Users should be able to:
 
-- 
+- make the necessary calculations
 
 ### Screenshot
 
-![screenshot]()
+![screenshot](/screenshot.png)
 
 ## My process
 
@@ -33,6 +32,7 @@ Users should be able to:
 - HTML5 markup
 - CSS custom properties
 - CSS Grid Layout
+- CSS Flex Layout
 - Mobile-first workflow
 
 ### What I learned
@@ -44,5 +44,13 @@ With this project I improved a lot my JS skills. The newest things I learnt are:
 ```js
 function calculate() {
   display.value = eval(display.value);
+}
+```
+
+- How to use hsl() function for color property
+
+```css
+.calculator {
+  background-color: hsl(0, 0%, 15%);
 }
 ```
