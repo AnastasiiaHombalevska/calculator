@@ -1,32 +1,37 @@
 body {
-  font-family: "Orbitron", sans-serif;
+  font-family: 'Orbitron', sans-serif;
   font-size: 16px;
   font-weight: 500;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   margin: 0;
 }
 
 .calculator {
-  background-color: grey;
+  background-color: hsl(0, 0%, 15%);
   border-radius: 10px;
   min-width: 320px;
-  max-width: 500px;
+  max-width: 400px;
+  overflow: hidden;
 }
-/* @media (min-width: 320px) { */
 
 .calc-dispaly {
   font-family: inherit;
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: left;
   width: 100%;
-  background-color: grey;
+  color: #fff;
+  background-color: hsl(0, 0%, 20%);
   padding-inline: 20px;
   border: none;
   box-sizing: border-box;
-  overflow: hidden;
   padding: 20px;
-  border-radius: 10px;
 }
 
+/* @media (min-width: 600px) { */
 .keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -35,15 +40,33 @@ body {
 }
 
 .btn {
-  font-size: 2rem;
+  width: 80px;
+  height: 80px;
+  font-size: 3rem;
   color: #fff;
-  background-color: #000;
+  background-color: hsl(0, 0%, 30%);
   border: none;
   border-radius: 50px;
   cursor: pointer;
 }
 
+.btn:hover {
+  background-color: hsl(0, 0%, 40%);
+}
+
+.btn:active {
+  background-color: hsl(0, 0%, 50%);
+}
+
 .operator-btn {
-  background-color: orange;
+  background-color: hsl(35, 100%, 55%);
+}
+
+.operator-btn:hover {
+  background-color: hsl(35, 100%, 65%);
+}
+
+.operator-btn:active {
+  background-color: hsl(35, 100%, 75%);
 }
 /* } */

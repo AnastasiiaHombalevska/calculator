@@ -39,8 +39,10 @@ Users should be able to:
 
 With this project I improved a lot my JS skills. The newest things I learnt are:
 
-- How 
+- How to use eval() method
 
 ```js
-
+function calculate() {
+  display.value = eval(display.value);
+}
 ```
